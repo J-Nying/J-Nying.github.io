@@ -31,8 +31,10 @@ p{
   position: relative;
 }
 
+
 nav{
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   margin: .5rem;
 }
