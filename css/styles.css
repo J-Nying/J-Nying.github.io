@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: white;
 }
 
@@ -8,39 +8,33 @@ h1 {
 
 p{
   color: rgb(129, 100, 100);
-}
+} */
 
 *{
   font-family: sans-serif;
 }
 
-html,body{
+/* html,body{
 
   margin:0%;
   box-sizing:border-box;
   overflow-x:hidden;
-}
+} */
 
 
 .heroine-image{
   height:50vh;
-  background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("../images/Altera Fate_Extella-maxresdefault.jpg");
+  background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg");
   background-position: 10% 10%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.navigation-bar {
-  /* background-color: silver; */
-  padding: 1rem;
-  margin: 0;
-  display: flex;
-  justify-content: space-evenly;
-
-}
 nav{
   display: flex;
+  justify-content: space-evenly;
+  margin: .5rem;
 }
 
 /* Style the links inside the navigation bar */
@@ -48,18 +42,22 @@ nav{
   color: black;
   font-size: 17px;
   text-decoration: none;
+  padding: 1rem;
+
 }
 
 /* Change the color of links on hover */
-.navigation-bar a:hover {
-  background-color: grey ;
-  color: white;
+.navigation-bar a:hover{
+  border: 3px solid black;
+  margin: -3px;
+  border-radius: 1rem;
 }
 
 /* Add a color to the active/current link */
 .navigation-bar a.active {
-  background-color: black;
-  color: white;
+  border: 3px solid black;
+  margin: -3px;
+  border-radius: 1rem;
 }
 
 .navigation-menu-icon{

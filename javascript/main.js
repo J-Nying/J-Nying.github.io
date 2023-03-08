@@ -11,3 +11,9 @@ function myFunction() {
       }
     }
   }
+
+  $("a").click(setAsActive);
+   function setAsActive() {
+      $("a.active").toggleClass("active");
+      $(this).toggleClass("active");
+ }
